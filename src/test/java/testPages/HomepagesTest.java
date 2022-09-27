@@ -24,5 +24,5 @@ public class HomepagesTest extends BaseClass {
 		homePage.insuranceButton();
 		homePage.healthButton();
 	}
-	
+
 }

@@ -1,13 +1,10 @@
 package pages;
-/*
-Create a maven project of your own and show the URL is running and opening the page. Please add maximize(), deleteAllCookies(), pageLoadTimeOut(), implicitlyWait() in the BaseClass. In the home page, validate the logo, the way I validated. Use click() method to click webeElement, create at least 5. Use @FindBy to find web Elelement. You can use at least one as HOW keyword. Use Thread.sleep() to know use of it. Use enabled and priority keyword in test method along with @Test. Push to the github and share the link below*/
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
-
 public class HomePage {
 	WebDriver driver;
 
@@ -29,7 +26,6 @@ public class HomePage {
 
 	@FindBy(how = How.XPATH, using = "//a[@id='oneX-4-insurance']")
 	WebElement healthButton;
-
 
 	public boolean logoDisplayed() {
 		boolean img = logo.isDisplayed();
