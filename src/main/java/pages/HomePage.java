@@ -12,6 +12,7 @@ public class HomePage {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
+	
 	@FindBy(xpath = "//img[@class='-oneX-header-logo']")
 	WebElement logo;
 
