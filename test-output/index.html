@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.HomepagesTest" hash-for-method="healthButton">healthButton</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.HomepagesTest" hash-for-method="loginButtonTest01">loginButtonTest01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.HomepagesTest" hash-for-method="logoTest01">logoTest01</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -125,9 +130,16 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="healthButton">
-                  </a> <!-- healthButton -->
-                  <span class="method-name">healthButton</span>
+                  <a name="loginButtonTest01">
+                  </a> <!-- loginButtonTest01 -->
+                  <span class="method-name">loginButtonTest01</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoTest01">
+                  </a> <!-- logoTest01 -->
+                  <span class="method-name">logoTest01</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +147,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/dz/6njryvc96lx77m5kzzch6gqr0000gn/T/testng-eclipse-127750490/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/dz/6njryvc96lx77m5kzzch6gqr0000gn/T/testng-eclipse-1098945485/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -184,16 +196,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'healthButton')
+data.setCell(0, 1, 'logoTest01')
 data.setCell(0, 2, 'testPages.HomepagesTest')
-data.setCell(0, 3, 20393);
+data.setCell(0, 3, 1572);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginButtonTest01')
+data.setCell(1, 2, 'testPages.HomepagesTest')
+data.setCell(1, 3, 713);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -208,7 +224,7 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">4 ignored methods</span>
+            <span class="header-content">16 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
@@ -216,11 +232,35 @@ return data;
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">loginButtonTest</span>
                 <br/>
+                <span class="ignored-method-name">termsandConditionsLinkTest</span>
+                <br/>
+                <span class="ignored-method-name">searchFieldTest</span>
+                <br/>
+                <span class="ignored-method-name">healthButton</span>
+                <br/>
+                <span class="ignored-method-name">forgotUsernameOrPassword</span>
+                <br/>
+                <span class="ignored-method-name">logoTest</span>
+                <br/>
+                <span class="ignored-method-name">shrechicon</span>
+                <br/>
+                <span class="ignored-method-name">groceryButtonTest</span>
+                <br/>
+                <span class="ignored-method-name">usernameTest</span>
+                <br/>
                 <span class="ignored-method-name">insuranceButton</span>
+                <br/>
+                <span class="ignored-method-name">logoTestClickTest</span>
+                <br/>
+                <span class="ignored-method-name">usernameClickTest</span>
                 <br/>
                 <span class="ignored-method-name">userIdFieldTest</span>
                 <br/>
-                <span class="ignored-method-name">logoTest</span>
+                <span class="ignored-method-name">insurancreButtonClickTest</span>
+                <br/>
+                <span class="ignored-method-name">carInsuranceButtonClickTest</span>
+                <br/>
+                <span class="ignored-method-name">yourPrivacyRightsTest</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -238,12 +278,24 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">healthButton</span>
-                <span class="method-start">19094 ms</span>
+                <span class="method-name">loginButtonTest01</span>
+                <span class="method-start">20870 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">39526 ms</span>
+                <span class="method-start">21588 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">21708 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logoTest01</span>
+                <span class="method-start">40557 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">42133 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

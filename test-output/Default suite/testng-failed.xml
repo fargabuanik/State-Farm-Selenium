@@ -6,7 +6,7 @@
       <class name="testPages.HomepagesTest">
         <methods>
           <include name="setup"/>
-          <include name="healthButton"/>
+          <include name="signinClickTest"/>
           <include name="tearUp"/>
         </methods>
       </class> <!-- testPages.HomepagesTest -->

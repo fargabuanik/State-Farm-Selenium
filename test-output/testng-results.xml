@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+<testng-results skipped="0" failed="0" ignored="16" total="18" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39682" started-at="2022-09-28T02:37:24Z" finished-at="2022-09-28T02:38:03Z">
+  <suite name="Default suite" duration-ms="42281" started-at="2022-09-30T22:37:17Z" finished-at="2022-09-30T22:37:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39682" started-at="2022-09-28T02:37:24Z" finished-at="2022-09-28T02:38:03Z">
+    <test name="Default test" duration-ms="42281" started-at="2022-09-30T22:37:17Z" finished-at="2022-09-30T22:37:59Z">
       <class name="testPages.HomepagesTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testPages.HomepagesTest@bef2d72]" name="setup" is-config="true" duration-ms="19093" started-at="2022-09-28T02:37:24Z" finished-at="2022-09-28T02:37:43Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testPages.HomepagesTest@69b2283a]" name="setup" is-config="true" duration-ms="20870" started-at="2022-09-30T22:37:17Z" finished-at="2022-09-30T22:37:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="healthButton()[pri:0, instance:testPages.HomepagesTest@bef2d72]" name="healthButton" duration-ms="20393" started-at="2022-09-28T02:37:43Z" finished-at="2022-09-28T02:38:03Z">
+        <test-method status="PASS" signature="loginButtonTest01()[pri:0, instance:testPages.HomepagesTest@69b2283a]" name="loginButtonTest01" duration-ms="713" started-at="2022-09-30T22:37:38Z" finished-at="2022-09-30T22:37:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- healthButton -->
-        <test-method status="PASS" signature="tearUp()[pri:0, instance:testPages.HomepagesTest@bef2d72]" name="tearUp" is-config="true" duration-ms="137" started-at="2022-09-28T02:38:03Z" finished-at="2022-09-28T02:38:03Z">
+        </test-method> <!-- loginButtonTest01 -->
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:testPages.HomepagesTest@69b2283a]" name="tearUp" is-config="true" duration-ms="119" started-at="2022-09-30T22:37:38Z" finished-at="2022-09-30T22:37:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testPages.HomepagesTest@69b2283a]" name="setup" is-config="true" duration-ms="18849" started-at="2022-09-30T22:37:38Z" finished-at="2022-09-30T22:37:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logoTest01()[pri:0, instance:testPages.HomepagesTest@69b2283a]" name="logoTest01" duration-ms="1572" started-at="2022-09-30T22:37:57Z" finished-at="2022-09-30T22:37:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest01 -->
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:testPages.HomepagesTest@69b2283a]" name="tearUp" is-config="true" duration-ms="114" started-at="2022-09-30T22:37:59Z" finished-at="2022-09-30T22:37:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
