@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="16" total="18" passed="2">
+<testng-results skipped="0" failed="0" ignored="26" total="27" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="42281" started-at="2022-09-30T22:37:17Z" finished-at="2022-09-30T22:37:59Z">
+  <suite name="Default suite" duration-ms="27874" started-at="2022-10-02T03:26:20Z" finished-at="2022-10-02T03:26:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="42281" started-at="2022-09-30T22:37:17Z" finished-at="2022-09-30T22:37:59Z">
+    <test name="Default test" duration-ms="27874" started-at="2022-10-02T03:26:20Z" finished-at="2022-10-02T03:26:48Z">
       <class name="testPages.HomepagesTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testPages.HomepagesTest@69b2283a]" name="setup" is-config="true" duration-ms="20870" started-at="2022-09-30T22:37:17Z" finished-at="2022-09-30T22:37:38Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testPages.HomepagesTest@69b2283a]" name="setup" is-config="true" duration-ms="6728" started-at="2022-10-02T03:26:20Z" finished-at="2022-10-02T03:26:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginButtonTest01()[pri:0, instance:testPages.HomepagesTest@69b2283a]" name="loginButtonTest01" duration-ms="713" started-at="2022-09-30T22:37:38Z" finished-at="2022-09-30T22:37:38Z">
+        <test-method status="PASS" signature="setASpecificSizeOfWindow()[pri:0, instance:testPages.HomepagesTest@69b2283a]" name="setASpecificSizeOfWindow" duration-ms="20545" started-at="2022-10-02T03:26:27Z" finished-at="2022-10-02T03:26:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginButtonTest01 -->
-        <test-method status="PASS" signature="tearUp()[pri:0, instance:testPages.HomepagesTest@69b2283a]" name="tearUp" is-config="true" duration-ms="119" started-at="2022-09-30T22:37:38Z" finished-at="2022-09-30T22:37:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearUp -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:testPages.HomepagesTest@69b2283a]" name="setup" is-config="true" duration-ms="18849" started-at="2022-09-30T22:37:38Z" finished-at="2022-09-30T22:37:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="logoTest01()[pri:0, instance:testPages.HomepagesTest@69b2283a]" name="logoTest01" duration-ms="1572" started-at="2022-09-30T22:37:57Z" finished-at="2022-09-30T22:37:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoTest01 -->
-        <test-method status="PASS" signature="tearUp()[pri:0, instance:testPages.HomepagesTest@69b2283a]" name="tearUp" is-config="true" duration-ms="114" started-at="2022-09-30T22:37:59Z" finished-at="2022-09-30T22:37:59Z">
+        </test-method> <!-- setASpecificSizeOfWindow -->
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:testPages.HomepagesTest@69b2283a]" name="tearUp" is-config="true" duration-ms="541" started-at="2022-10-02T03:26:48Z" finished-at="2022-10-02T03:26:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
