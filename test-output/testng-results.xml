@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+<testng-results skipped="0" failed="0" ignored="26" total="27" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39682" started-at="2022-09-28T02:37:24Z" finished-at="2022-09-28T02:38:03Z">
+  <suite name="Default suite" duration-ms="27874" started-at="2022-10-02T03:26:20Z" finished-at="2022-10-02T03:26:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39682" started-at="2022-09-28T02:37:24Z" finished-at="2022-09-28T02:38:03Z">
+    <test name="Default test" duration-ms="27874" started-at="2022-10-02T03:26:20Z" finished-at="2022-10-02T03:26:48Z">
       <class name="testPages.HomepagesTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testPages.HomepagesTest@bef2d72]" name="setup" is-config="true" duration-ms="19093" started-at="2022-09-28T02:37:24Z" finished-at="2022-09-28T02:37:43Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testPages.HomepagesTest@69b2283a]" name="setup" is-config="true" duration-ms="6728" started-at="2022-10-02T03:26:20Z" finished-at="2022-10-02T03:26:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="healthButton()[pri:0, instance:testPages.HomepagesTest@bef2d72]" name="healthButton" duration-ms="20393" started-at="2022-09-28T02:37:43Z" finished-at="2022-09-28T02:38:03Z">
+        <test-method status="PASS" signature="setASpecificSizeOfWindow()[pri:0, instance:testPages.HomepagesTest@69b2283a]" name="setASpecificSizeOfWindow" duration-ms="20545" started-at="2022-10-02T03:26:27Z" finished-at="2022-10-02T03:26:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- healthButton -->
-        <test-method status="PASS" signature="tearUp()[pri:0, instance:testPages.HomepagesTest@bef2d72]" name="tearUp" is-config="true" duration-ms="137" started-at="2022-09-28T02:38:03Z" finished-at="2022-09-28T02:38:03Z">
+        </test-method> <!-- setASpecificSizeOfWindow -->
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:testPages.HomepagesTest@69b2283a]" name="tearUp" is-config="true" duration-ms="541" started-at="2022-10-02T03:26:48Z" finished-at="2022-10-02T03:26:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->

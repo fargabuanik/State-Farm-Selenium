@@ -7,7 +7,6 @@
   <description>This a StateFrame Automation FrameWork </description>
  
  <dependencies>
-
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
