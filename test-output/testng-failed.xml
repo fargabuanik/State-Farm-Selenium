@@ -6,8 +6,8 @@
       <class name="testPages.HomepagesTest">
         <methods>
           <include name="setup"/>
+          <include name="use_of_getTitle_method1_with_assertion"/>
           <include name="tearUp"/>
-          <include name="setASpecificSizeOfWindow"/>
         </methods>
       </class> <!-- testPages.HomepagesTest -->
     </classes>
